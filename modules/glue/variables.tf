@@ -19,7 +19,7 @@ variable "table_prefix" {
 variable "s3_bucket" {
   description = "Bucket S3 onde os dados estão armazenados"
   type        = string
-  default     = "creditflow-bronze"
+  default     = "teste-glue"
 
 }
 

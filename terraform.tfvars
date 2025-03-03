@@ -1,5 +1,4 @@
 ############################################################################################################################
-
 glue_job_name    = "teste"
 glue_role_arn    = "arn:aws:iam::123456789012:role/AWSGlueServiceRole"
 script_location  = "s3://creditflow-bronze/scripts/etl_script.py"

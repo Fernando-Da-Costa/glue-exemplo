@@ -48,8 +48,15 @@ variable "s3_bucket" {
 
 }
 
-# variable "environment" {
-#   description = "Ambiente de deploy"
-#   type        = string
-# }
+########################################################################################################################
+# Variaveis para o S3
+variable "region" {
+  description = "Região da AWS para os recursos"
+  type        = string
+  default     = "us-east-1"
+}
 
+variable "bucket_name" {
+  description = "Nome único do bucket"
+  type        = string
+}
